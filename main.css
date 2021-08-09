@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    background-color: rgb(220, 235, 235);
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+  
+    padding: 3rem;
+}
+
+.memory-game {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memory-card {
+    width: calc(25% - 2rem);
+    height: calc(33.333% - 2rem);
+    margin: 1rem;
+    position: relative;
+    min-width: 5rem;
+    border: solid 2px black;
+}
+
+img {
+    width: 100%;
+
+}
+
+.front-face {
+    display: none;
+}
+
+.player-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    padding: 5rem;
+}
+
+.player{
+    border: 2px solid black;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.player-input { 
+    height: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+}
+.player-input:hover, .player-input:focus{
+    border: 0.2rem solid rgb(26, 97, 97);
+}
+
+.prompt{
+    padding: 3rem;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
